@@ -51,6 +51,9 @@ body {
       align-self: stretch;
       background: rgba($blue-color, 0.1);
       color: $blue-color;
+      display: flex;
+      justify-content: center;
+      align-items: center;
     }
   }
 
