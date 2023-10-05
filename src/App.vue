@@ -24,6 +24,8 @@
 </template>
 
 <style lang="scss">
+$blue-color: #17a;
+
 html,
 body {
   margin: 0;
@@ -47,8 +49,8 @@ body {
     .logo {
       width: 128px;
       align-self: stretch;
-      background: rgba(#17a, 0.1);
-      color: #17a;
+      background: rgba($blue-color, 0.1);
+      color: $blue-color;
     }
   }
 
@@ -66,7 +68,7 @@ body {
         display: block;
 
         a {
-          color: #17a;
+          color: $blue-color;
           text-decoration: none;
 
           padding: {
